@@ -1,0 +1,18 @@
+>>DOM: Document Object Model. Es una transformación del código HTML escrito por nosotros a objetos entendibles para el navegador.
+
+>>CSSOM: así como el DOM para el HTML, EL CSSOM es una representación de objetos de nuestros estilos en CSS.
+
+>>Render Tree: es la unión entre el DOM y el CSSOM para renderizar todo el código de nuestra página web.
+
+////////////////////////////////////////
+
+/*DOM, CSSOM, Render Tree y el proceso de renderizado de la Web*/
+		
+		DOM   ==> Document Object Model  1. El navegador Procesa HTML Y construye el DOM.
+		CSSOM ==> 						 2. El navegador Procesa y construye el CSSOM.							
+		RENDER TREE ==>                  3. El navegador DOM + CSSOM ==> RENDER TREE.
+										 4. El navegador Ejecuta el diseño en el render Tree.
+										 5. El navegador Pinta en nodo enla pantalla.	
+
+	/*DOM, CSSOM, Render Tree y el proceso de renderizado de la Web*/```
+    
